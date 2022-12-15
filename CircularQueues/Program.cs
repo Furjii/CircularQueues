@@ -50,6 +50,14 @@ namespace CircularQueues
              * its proper place.*/
             queue_array[REAR] = element;
         }
+        public void remove()
+        {
+            /*Checks whetever the queue is empty.*/
+            if (FRONT == -1)
+            {
+                Console.WriteLine("Queue underflow\n");
+            }
+        }
         static void Main(string[] args)
         {
         }
