@@ -10,6 +10,17 @@ namespace CircularQueues
     {
         int FRONT, REAR, max = 5;
         int[] queue_array = new int[5];
+        public Queues()
+        {
+            /*Initial the values of the variabel REAR and FRONT to -1 
+             * to indicate that queue is initially empty.*/
+            FRONT = -1;
+            REAR = -1;
+        }
+        public void insert(int element)
+        {
+
+        }
         static void Main(string[] args)
         {
         }
